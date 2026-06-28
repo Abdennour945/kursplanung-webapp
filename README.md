@@ -1,34 +1,34 @@
-# 📚 Kursplanung WebApp
+# Kursplanung WebApp
 
-Eine Web-Anwendung zur Verwaltung von Kursen, Mitarbeitern und Trainern, entwickelt mit **PHP** und **PostgreSQL**.
+## Beschreibung
 
-## 🚀 Technologien
+Dieses Projekt ist eine Webanwendung zur Verwaltung von Kursen, Mitarbeitern und Trainern.
+Die Anwendung wurde im Rahmen eines Hochschulprojekts mit PHP und PostgreSQL entwickelt.
+
+## Technologien
 
 - PHP
 - PostgreSQL
 - HTML5
 - CSS3
-- Git & GitHub
+- Git
+- GitHub
 
----
-
-## ✨ Funktionen
+## Funktionen
 
 - Benutzeranmeldung
 - Dashboard
 - Mitarbeiterverwaltung
 - Mitarbeiter anlegen
 - Mitarbeiter bearbeiten
-- Mitarbeiter aktivieren/deaktivieren
+- Mitarbeiter aktivieren und deaktivieren
 - Kursplan anzeigen
 - Rollenverwaltung
 
----
-
-## 📂 Projektstruktur
+## Projektstruktur
 
 ```
-kursplanung-app/
+kursplanung-webapp/
 │
 ├── assets/
 ├── config/
@@ -41,21 +41,17 @@ kursplanung-app/
 └── README.md
 ```
 
----
+## Datenbank
 
-## 🗄️ Datenbank
-
-Die Datenbank befindet sich im Ordner
+Die Datenbank befindet sich im Ordner:
 
 ```
 sql/database.sql
 ```
 
-Vor dem Start der Anwendung muss diese Datenbank in PostgreSQL importiert werden.
+Vor dem Start der Anwendung muss diese Datei in PostgreSQL importiert werden.
 
----
-
-## ⚙️ Installation
+## Installation
 
 1. Repository klonen
 
@@ -63,52 +59,50 @@ Vor dem Start der Anwendung muss diese Datenbank in PostgreSQL importiert werden
 git clone https://github.com/Abdennour945/kursplanung-webapp.git
 ```
 
-2. PostgreSQL-Datenbank erstellen
+2. Eine PostgreSQL-Datenbank erstellen.
 
-3. `sql/database.sql` importieren
+3. Die Datei
 
-4. `config/db.example.php` nach `config/db.php` kopieren
-
-5. In `config/db.php` die eigenen Daten eintragen:
-
-```php
-$host = "localhost";
-$dbname = "kursplanung_app";
-$user = "dein_username";
-$password = "dein_passwort";
+```
+sql/database.sql
 ```
 
-6. Projekt im Browser starten.
+importieren.
 
----
+4. Die Datei
 
-## 📸 Screenshots
+```
+config/db.example.php
+```
 
-### 🔐 Login
+nach
 
-*(Screenshot hier später einfügen)*
+```
+config/db.php
+```
 
-### 🏠 Dashboard
+kopieren.
 
-*(Screenshot hier später einfügen)*
+5. In `config/db.php` die eigenen Datenbankzugangsdaten eintragen.
 
-### 👥 Mitarbeiterverwaltung
+6. Das Projekt mit einem lokalen Webserver (z. B. XAMPP oder MAMP) starten.
 
-*(Screenshot hier später einfügen)*
+## Screenshots
 
----
+### Login
 
-## 👨‍💻 Autor
+*(Screenshot hier einfügen)*
+
+### Dashboard
+
+*(Screenshot hier einfügen)*
+
+### Mitarbeiterverwaltung
+
+*(Screenshot hier einfügen)*
+
+## Autor
 
 Abdennour Bencharda
 
----
-
-## 📖 Was ich in diesem Projekt gelernt habe
-
-- Arbeiten mit PHP
-- PostgreSQL-Datenbanken
-- Benutzeranmeldung
-- CRUD-Operationen
-- Git und GitHub
-- Projektstruktur für Web-Anwendungen
+Informatikstudent
