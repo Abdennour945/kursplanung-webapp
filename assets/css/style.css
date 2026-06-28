@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+.container,
+.login-box {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.login-box {
+    max-width: 400px;
+}
+
+h1,
+h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.menu a {
+    display: block;
+    background: #222;
+    color: white;
+    padding: 12px;
+    margin: 8px 0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background: #444;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.kurs-normal {
+    background-color: white;
+}
+
+.kurs-vertretung {
+    background-color: #ffcccc;
+}
