@@ -91,15 +91,15 @@ kopieren.
 
 ### Login
 
-*(Screenshot hier einfügen)*
+![Login](screenshots/login.jpg)
 
 ### Dashboard
 
-*(Screenshot hier einfügen)*
+![Dashboard](screenshots/dashboard.jpg)
 
 ### Mitarbeiterverwaltung
 
-*(Screenshot hier einfügen)*
+![Mitarbeiterverwaltung](screenshots/mitarbeiter.jpg)
 
 ## Autor
 
